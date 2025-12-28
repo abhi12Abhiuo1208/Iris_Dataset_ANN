@@ -16,7 +16,9 @@ and a pre-fitted scaler (via joblib) to preprocess the input data.
 - CSRF protection enabled via Flask’s `SECRET_KEY`.
 - Model predictions served through a clean Flask route.
 - Templates (`home.html` and `prediction.html`) for user interaction and results display.
+
 ---
+
 ## 📂 Project Structure
 ```
 Iris_Dataset_ANN/
@@ -28,7 +30,9 @@ Iris_Dataset_ANN/
 │   └── prediction.html   # Results template
 └── README.md             # Project description
 ```
+
 ---
+
 ## ⚙️ Installation & Usage
 1. Clone the repository:
    ```bash
