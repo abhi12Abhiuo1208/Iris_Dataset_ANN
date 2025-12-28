@@ -1,0 +1,28 @@
+<!-- Welcome Section -->
+<h1>🌸 Welcome to the Iris Flower Classifier 🌸</h1>
+<p>
+    This app uses a trained machine learning model to predict the species of an iris flower 
+    based on your measurements. Please enter the values below and click <strong>Predict</strong>.
+</p>
+<hr>
+
+<!-- Input Form -->
+<form method="POST">
+    {{ form.hidden_tag() }}
+
+    <!-- Sepal and Petal Inputs -->
+    <p>
+        {{ form.sepal_length.label }} {{ form.sepal_length(size=20) }} <br>
+        {{ form.sepal_width.label }} {{ form.sepal_width(size=20) }} <br>
+        {{ form.petal_length.label }} {{ form.petal_length(size=20) }} <br>
+        {{ form.petal_width.label }} {{ form.petal_width(size=20) }} <br>
+    </p>
+
+    <!-- Submit Button -->
+    <p>{{ form.submit() }}</p>
+</form>
+
+<!-- Footer Note -->
+<p style="font-size: small; color: gray;">
+    Tip: Use measurements in centimeters (cm) for best results.
+</p>

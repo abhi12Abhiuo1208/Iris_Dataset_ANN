@@ -1,0 +1,18 @@
+<!-- Heading: confirms the user input -->
+<h1>🌼 Here is the information you entered 🌼</h1>
+
+<!-- Display the values passed from Flask via render_template -->
+<ul>
+    <li> Sepal Length: {{ sepal_length }} </li>
+    <li> Sepal Width: {{ sepal_width }} </li>
+    <li> Petal Length: {{ petal_length }} </li>
+    <li> Petal Width: {{ petal_width }} </li>
+</ul>
+
+<!-- Show the prediction result -->
+<h2>🔮 The predicted flower species is: <strong>{{ prediction }}</strong></h2>
+
+<!-- Optional: Add a back button to return to the form -->
+<p>
+    <a href="{{ url_for('home') }}">🔙 Try another prediction</a>
+</p>
