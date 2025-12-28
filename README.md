@@ -79,6 +79,3 @@ Developed by **Abhishek**
 Connect with me on [Linkedin](https://www.linkedin.com/in/abhiuo007/)  
 📍 Bengaluru, India
 ```
-
----
-
